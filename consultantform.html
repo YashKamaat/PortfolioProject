@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Forms Exercise" content="New Client Form">
+    <title>Schedule Free Consultation</title>
+</head>
+
+<body>
+
+    <section class="navigation">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+              <nav class="pull">
+                <ul class="top-nav">
+                  <li><a href="#home"><span class="indicator"><i class="fa fa-angle-right"></i></span>
+                  <a href="consulting.html" class="btn btn-Primary">HOME</a></li>  
+                </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <form action="mailto:Hello@PolyMathYash.com"><form action="https://PolyMathYash.com/myform-processor.php"></form>
+    <form>
+        <fieldset>
+
+            <legend>Schedule a Free Consultation </legend>
+
+            <label for="store number">Service</label>
+            <select name="service" id="service" required>
+                <option value="" disabled selected>Select A Service</option>
+                <option value="Business Analytics and Strategy">Business Analytics and Strategy</option>
+                <option value="Private/Organization DEI">Private/Organization DEI Strategy</option>
+                <option value="Public/Individual">Public/Individual Training</option>
+                <option value="Private/Organization">Public Speaking/Workshop/Training Facilitation</option>
+            </select>
+
+            <form>
+                <fieldset>
+                    <legend>When you want to start</legend>
+                    <div>
+                        <label for="Date">Start Date</label>
+                        <input type="date" name="start" id="date" value="date" min="2021-10-11" max="2021-12-31">
+                    </div>
+
+                    <label for="time">Start Time</label>
+                    <input type="time" name="time" id="time">
+                </fieldset>
+            </form>
+
+            <div>
+                <label for="Name"> Full Name</label>
+                <input type="text" id="fullName" placeholder="Name" name="fullName" required>
+                <br>
+                <label for="Email">Email:</label>
+                <input type="email" placeholder="Email" name="email" id="email" required>
+            </div>
+            <fieldset>
+                <legend>Pronouns</legend>
+                <div>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="gender">he/him/his</label>
+                    <br>
+                    <input type="radio" id="female" name="gender" id="female" value="Female" checked>
+                    <label for="female">she/her/hers</label>
+                    <br>
+                    <input type="radio" name="gender" id="nb" value="Non Binary">
+                    <label for="nb">they/them/theirs</label>
+                    <br>
+                    <input type="radio" name="gender" id="nb" value="Non Binary">
+                    <label for="nb">ze/zir/zirs</label>
+                    <br>
+                    <input type="radio" name="gender" id="nb" value="Non Binary">
+                    <label for="nb">name</label>
+                </div>
+            </fieldset>
+
+            <label for="experience">Tell us about your needs, goals, and wants:</label>
+            <br>
+
+            <textarea id="experience" cols="20" rows="2"></textarea>
+
+            <form>
+                <label for="times visited">Have you worked with a consultant before:</label>
+                <br>
+                <input type="number" name="time visited" id="time visited" value="times visited" min="0" max="10">
+                <br>
+                <legend>Please check the box of your preferred method of contact</legend>
+                <fieldset>
+                    <div>
+                        <input type="radio" id="phone" name="phone" value="phone">
+                        <label for="phone">phone</label> <input type="phone number" id="phone" name="phone number" maxlength= "10" required title= "Please enter your phone number"
+                        for="phone number">phone</label>
+                        <br>
+                        <input type="radio" id="email" name="email" id="email" value="email" checked>
+                        <label for="email">email</label>
+                </div>
+               
+                <input type="submit" value="Submit" required>
+
+            </form>
+            
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

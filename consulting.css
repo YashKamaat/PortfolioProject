@@ -1,0 +1,46 @@
+/* Importing Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+body {
+  font-family: 'M PLUS Rounded 1c', serif;
+}
+
+#showcase {
+  background-image: url("img/consultinghead.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: top;
+  /* background-color: #034b40; */
+}
+
+p {
+
+font-weight: bold; 
+text-align: center;
+background-position: top;
+justify-content: center;
+}
+@media (max-width: 768px) {
+  #showcase {
+    padding: 0 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-text {
+    height: 110px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-text {
+    height: 90px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card-text {
+    height: 70px;
+  }
+}
